@@ -656,6 +656,9 @@ footer .container-md {
 	.questions-title {
     	font-size: 36px;
 	}
+	.btn-nav{
+		display: none;
+	}
 }
 @media(max-width: 325px) {
 	.why-choose-title {
@@ -697,6 +700,9 @@ footer .container-md {
     .main-link {
     	margin: 10px 0px;
     	display: block;
+    }
+    .header{
+    	margin-bottom: 10px;
     }
 }
 
