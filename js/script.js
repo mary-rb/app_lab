@@ -27,3 +27,11 @@ $('#accordionExample').on('show.bs.collapse', function(e) {
 }).on('hide.bs.collapse', function(e) {
 	$(e.target).closest('.card').removeClass('open');
 });
+$(document).ready(function(){
+    $("#navbarSupportedContent").on("click","a", function (event) {
+        event.preventDefault();
+        var id  = $(this).attr('href'),
+            top = $(id).offset().top;
+        $('body,html').animate({scrollTop: top}, 1500);
+    });
+});
