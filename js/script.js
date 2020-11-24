@@ -35,3 +35,16 @@ $(document).ready(function(){
         $('body,html').animate({scrollTop: top}, 1500);
     });
 });
+$('.button-up').click(function(e){
+	e.preventDefault();
+	$('html, body').animate({scrollTop: 0}, 500);
+	return false;
+});
+$(document).scroll(function(){
+	let y = $(this).scrollTop();
+	if(y > 800){
+		$('.button-up').removeClass('hidden');
+	}else{
+		$('.button-up').addClass('hidden');
+	}
+});

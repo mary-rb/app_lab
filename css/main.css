@@ -8,7 +8,15 @@ body{
 a{
 	text-decoration: none;
 }
-
+.hidden{
+	display: none;
+}
+.button-up{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    color: #616368;
+}
 .fab:hover{
 	color: white;
 }
@@ -595,7 +603,7 @@ footer .container-md{
 	.box-monthly > div{
 		margin:20px 0!important;
 	}
-	.box-annualy > div{
+	.box-annually > div{
 		margin:20px 0!important;
 	}
 	.clients{
@@ -644,6 +652,7 @@ footer .container-md{
 	}
 	.carousel-control-prev::after{
 		height: 18px;
+		right: -6px;
 	}
 	.footer-nav{
 		margin: 30px 0;
@@ -654,6 +663,12 @@ footer .container-md{
 	footer p{
 		font-size: 14px;
 		margin: 0;
+	}
+	.button-up{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: #616368;
 	}
 
 }
