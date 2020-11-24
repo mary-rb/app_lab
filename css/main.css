@@ -101,6 +101,7 @@ a {
 }
 .main-link {
 	color: #2500f9;
+	white-space: nowrap;
 }
 .main-link span {
 	-webkit-user-select: none;
@@ -213,7 +214,7 @@ a {
 	width: 100%;
 }
 .design-text {
-	padding-left: 60px;
+	padding-left: 40px;
 }
 .why-choose {
 	margin-top: 100px;
@@ -501,9 +502,6 @@ footer .container-md {
 	}
 }
 @media(max-width: 820px) {
-	.design-title {
-		font-size: 30px;
-	}
 	.download .container-md {
 		height: 400px;
 	}
@@ -536,14 +534,9 @@ footer .container-md {
 		background: none;
 	}
 }
-@media(max-width: 720px) {
-	.design-title {
-		font-size: 23px;
-	}
-}
 @media(max-width: 700px) {
 	.smart-title{
-		font-size: 24px;
+		font-size: 32px;
 	}
 	.smart-subtitle {
 		font-size: 14px;
@@ -616,16 +609,12 @@ footer .container-md {
 	.ultimate-subtitle {
 		text-align: center;
 	}
-	.why-choose-title {
-		font-size: 23px;
-	}
 	.download-title {
 		font-size: 40px;
 	}
 	.header {
 		margin-top: 0px;
 	}
-
 }
 @media(max-width: 400px) {
 	.carousel-control-next, 
@@ -665,12 +654,12 @@ footer .container-md {
       margin-top: 150px;
 	}
 	.questions-title {
-    	font-size: 37px;
+    	font-size: 36px;
 	}
 }
 @media(max-width: 325px) {
 	.why-choose-title {
-		font-size: 20px;
+		font-size: 30px;
 	}
 	.awsome-title {
 		font-size: 30px;
@@ -694,11 +683,21 @@ footer .container-md {
 		margin-top: 100px;
 	}
 	.questions-title {
-		font-size: 25px;
+		font-size: 30px;
 	}
 	.download-title {
-		font-size: 33px;
+		font-size: 30px;
 	}
+	.main-badge {
+    	width: 290px;
+	}
+	.design-title {
+    	font-size: 30px;
+    }
+    .main-link {
+    	margin: 10px 0px;
+    	display: block;
+    }
 }
 
 
